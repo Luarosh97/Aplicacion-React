@@ -2,6 +2,7 @@
 import React, { Component } from 'react';
 import { Form } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
+import './RegistroPersona.css';
 
 
 export class RegistroPersona extends Component {
@@ -11,7 +12,11 @@ export class RegistroPersona extends Component {
     render () {
         return (
             <div class="container">
-                <h1 class="text-center"> Registro De Personas</h1> <br></br>
+                <div
+        class="cabecera-formulario">
+        <p class="tituloContainer"><i class="fas fa-dog"></i> Registro De Cientes</p>
+      </div>
+
 <Form>
   <Form.Group controlId="id">
     <Form.Label>Identificacion</Form.Label>
