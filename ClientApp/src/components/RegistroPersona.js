@@ -14,7 +14,7 @@ export class RegistroPersona extends Component {
             <div class="container">
                 <div
         class="cabecera-formulario">
-        <p class="tituloContainer"><i class="fas fa-dog"></i> Registro De Cientes</p>
+        <p class="tituloContainer"><i class="fas fa-dog"></i> Registro De Personas</p>
       </div>
 
 <Form>
