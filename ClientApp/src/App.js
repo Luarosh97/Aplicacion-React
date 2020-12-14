@@ -4,10 +4,12 @@ import { Layout } from './components/Layout';
 import { Home } from './components/Home';
 import { FetchData } from './components/FetchData';
 import { Counter } from './components/Counter';
-import { personaConsulta} from './components/personaConsulta';
+import { personaConsulta} from './components/Pulsaciones/personaConsulta';
+import { RegistroPersona} from './components/Pulsaciones/RegistroPersona';
+
 
 import './custom.css'
-import { RegistroPersona } from './components/RegistroPersona';
+
 
 export default class App extends Component {
   static displayName = App.name;

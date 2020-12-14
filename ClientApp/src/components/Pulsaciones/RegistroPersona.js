@@ -44,7 +44,7 @@ export class RegistroPersona extends Component {
   </Form.Group>
    <Button type="submit">Registrar</Button>{' '}
    <Button type="reset">Limpiar</Button>{' '}
-</Form>
+</Form><br></br><br></br>
 </div>
 );
 }
